@@ -47,45 +47,45 @@ gem 'rubyzip'
 gem 'date_validator'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: %i[mri mingw x64_mingw]
+    # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+    gem 'byebug', platforms: %i[mri mingw x64_mingw]
 
-  # Testing utilities
-  gem 'cucumber-rails', require: false
-  gem 'database_cleaner'
-  gem 'factory_bot'
-  gem 'haml_lint'
-  gem 'rspec-rails'
-  gem 'rubocop-rails'
-  gem 'sqlite3'
+    # Testing utilities
+    gem 'cucumber-rails', require: false
+    gem 'database_cleaner'
+    gem 'factory_bot'
+    gem 'haml_lint'
+    gem 'rspec-rails'
+    gem 'rubocop-rails'
+    gem 'sqlite3'
 
-  # Guard Plugins
-  gem 'guard'
-  gem 'guard-cucumber', require: false
-  gem 'guard-rspec', require: false
-  gem 'guard-rubocop', require: false
+    # Guard Plugins
+    gem 'guard'
+    gem 'guard-cucumber', require: false
+    gem 'guard-rspec', require: false
+    gem 'guard-rubocop', require: false
 
-  # Generate different sizes of favicon from a single image.
-  gem 'rails_real_favicon'
+    # Generate different sizes of favicon from a single image.
+    gem 'rails_real_favicon'
 
-  # Report coverage.
-  gem 'codecov', require: false
-  gem 'simplecov'
+    # Report coverage.
+    gem 'codecov', require: false
+    gem 'simplecov'
 end
 
 group :development do
-  # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'listen', '>= 3.0.5', '< 3.2'
-  gem 'web-console', '>= 3.3.0'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+    # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
+    gem 'listen', '>= 3.0.5', '< 3.2'
+    gem 'web-console', '>= 3.3.0'
+    # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+    gem 'spring'
+    gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 group :production do
-  # Use postgresql as the database for Active Record in production (Heroku)
-  gem 'pg', '>= 0.18', '< 2.0'
-  gem 'rails_12factor'
+    # Use postgresql as the database for Active Record in production (Heroku)
+    gem 'pg', '>= 0.18', '< 2.0'
+    gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

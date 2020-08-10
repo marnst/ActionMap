@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::Base
-  before_action :authenticated
+    before_action :authenticated
 
-  private
+    private
 
-  def authenticated
-    @authenticated = !session[:current_user_id].nil?
-  end
+    def authenticated
+        @authenticated = !session[:current_user_id].nil?
+    end
 end
