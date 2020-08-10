@@ -7,9 +7,9 @@ political events in their area as well as aggregate, share and view news items i
 
 </div>
 
-[![Build Status](https://travis-ci.com/cs169/hw-agile-iterations-group28.svg?token=bwQsPweqLRTprHCtq9C4&branch=travis_ci_setup)](https://travis-ci.com/cs169/hw-agile-iterations-group28)
+[![Build Status](https://travis-ci.com/marnst/hw-agile-iterations-group28.svg?token=bwQsPweqLRTprHCtq9C4&branch=master)](https://travis-ci.com/marnst/hw-agile-iterations-group28)
 
-[![codecov](https://codecov.io/gh/cs169/hw-agile-iterations-group28/branch/master/graph/badge.svg?token=HNPX7FJBUB)](https://codecov.io/gh/cs169/hw-agile-iterations-group28)
+[![codecov](https://codecov.io/gh/marnst/hw-agile-iterations-group28/branch/master/graph/badge.svg?token=DfEIhl1hdU)](https://codecov.io/gh/marnst/hw-agile-iterations-group28)
 
 ### Getting Setup Locally
 
