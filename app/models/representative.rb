@@ -6,7 +6,7 @@ class Representative < ApplicationRecord
     def self.civic_api_to_representative_params(rep_info)
         reps = []
         rep_info.officials.each_with_index do |official, index|
-            title_temp, ocdid_temp = each_helper(rep_info, index)
+            title_temp, ocdid_temp = each_helper(rep_info, index) # split up for ABC
             rep = Representative.create!({ name: official.name, ocdid: ocdid_temp,
                                            title: title_temp, address: address_helper(official.address),
                                            party: official.party, photo: photo_helper(official.photo_url) })
