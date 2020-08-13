@@ -1,0 +1,26 @@
+%h1.text-center
+    = @representative.name
+
+.row.mt-2
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        .card-body
+            %img{ src: @representative.photo, class: 'mx-auto d-block img-fluid mw-75' }
+            .card-text
+                %dl.row
+                %dl.row
+                %dl.row
+                    %dt.col-sm-3.text-md-right Office:
+                    %dt.col-sm-9
+                        = @representative.title
+                %dl.row
+                    %dt.col-sm-3.text-md-right Party:
+                    %dt.col-sm-9
+                        = @representative.party
+                %dl.row
+                    %dt.col-sm-3.text-md-right OCD ID:
+                    %dt.col-sm-9
+                        = @representative.ocdid
+                %dl.row
+                    %dt.col-sm-3.text-md-right Address:
+                    %dt.col-sm-9
+                        = @representative.address
